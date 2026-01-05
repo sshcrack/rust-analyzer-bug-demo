@@ -1,0 +1,1 @@
+Important file is [main.rs](./src/main.rs). This shows that `test_function` should be (by my understanding) suggested, but it actually isn't. I think this is because the `TestTrait` is in a different trait than the `TestStruct` in `test-implementation`.
