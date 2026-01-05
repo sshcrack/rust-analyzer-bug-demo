@@ -1,0 +1,12 @@
+[package]
+name = "reprod-test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+test-trait = { path = "crates/test-trait" }
+test-implementation = { path = "crates/test-implementation" }
+
+[workspace]
+resolver = "2"
+members = ["crates/test-trait", "crates/test-implementation"]
